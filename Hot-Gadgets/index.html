@@ -1,0 +1,256 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hot Gadgets</title>
+    <link rel="shortcut icon" href="image 7.png" type="image/x-icon">
+    <!------------bootstrap----------------->
+    <link rel="stylesheet" href="bootstrap.min.css">
+    <!-------------Font----------------->
+    <link href="https://fonts.googleapis.com/css2?family=Cabin:wght@500&display=swap" rel="stylesheet">
+    <!---------------Css---------------->
+    <link rel="stylesheet" href="styel.css">
+</head>
+<body>
+    <!-------------------Navbar S----------------------->
+    <header class="fixed-top">
+        <nav class="navbar  navbar-expand-lg navbar-light bg-white">
+            <a class="navbar-brand" href="#"><img src="logo.png" alt=""></a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+          
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+
+                <form class="search-bar  my-2 my-lg-0">
+                    <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+                    <button class="btn text-secondary " type="submit"><i class="fa fa-search"></i></button>
+                  </form>
+
+              <ul class="navbar-nav mr-auto">
+                <li class="nav-item active">
+                  <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+                </li>
+                
+                <li class="nav-item dropdown">
+                  <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Product</a>
+                  <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                    <a class="dropdown-item" href="#leptop">Laptop</a>
+                    <a class="dropdown-item" href="#mobile">SmartPhone</a>
+                    
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">About Us</a>
+                  </li>
+                <li class="nav-item">
+                  <a class="nav-link " href="#">Contact Us</a>
+                </li>
+              </ul>
+             
+            </div>
+          </nav>
+    </header>
+
+    <!------------------Navber E----------------------->
+
+    <!---------------------Slider S-------------------------->
+
+    <div id="carouselExampleIndicators" class="container carousel slide" data-ride="carousel">
+        <ol class="carousel-indicators">
+          <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+          <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+          <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+        </ol>
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <div class="row d-flex align-items-center justify-content-between">
+                <div class="col-md-7">
+                    <h1>JBU</h1>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Et illum in iste rerum perferendis suscipit ipsa commodi, dolores laborum iusto sequi, incidunt voluptas eos est molestiae temporibus minima corporis voluptatibus!</p>
+                    <button class="btn">Buy Now<span>&#8594;</span></button>
+                    
+
+                </div>
+                <div class="col-md-5">
+                    <img src="banner-products/slider-3.png" class="d-block w-100" alt="...">
+                </div>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <div class="row d-flex align-items-center justify-content-between">
+                <div class="col-md-7">
+                    <h1>Alexa</h1>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Et illum in iste rerum perferendis suscipit ipsa commodi, dolores laborum iusto sequi, incidunt voluptas eos est molestiae temporibus minima corporis voluptatibus!</p>
+                    <button class="btn">Buy Now<span>&#8594;</span></button>
+
+                </div>
+                <div class="col-md-5">
+                    <img src="banner-products/slider-1.png" class="d-block w-100" alt="...">
+                </div>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <div class="row d-flex align-items-center justify-content-between">
+                <div class="col-md-7">
+                    <h1>MackBook Pro</h1>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Et illum in iste rerum perferendis suscipit ipsa commodi, dolores laborum iusto sequi, incidunt voluptas eos est molestiae temporibus minima corporis voluptatibus!</p>
+                    <button class="btn">Buy Now<span>&#8594;</span></button>
+
+                </div>
+                <div class="col-md-5">
+                    <img src="banner-products/product-1.png" class="d-block w-100" alt="...">
+                </div>
+            </div>
+          </div>
+        </div>
+        <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="sr-only">Previous</span>
+        </a>
+        <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="sr-only">Next</span>
+        </a>
+      </div>
+
+      <!--------------Smart phone--------------------------------->
+      <div class="container" id="mobile">
+          <div class="row">
+              <div class="col-md-6 d-flex flex-row bd-highlight mb-3"><h2>SmartPhone</h2></div>
+              <div class="col-md-6 d-flex flex-row-reverse bd-highlight"><h5>See All</h5></div>
+          </div>
+        <div class="card-deck">
+            <div class="card">
+              <img src="phone/phone-2.png" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h5 class="card-title">IPhone 11 pro</h5>
+                <p class="card-text">The phone comes with a 5.80-inch touchscreen display with a resolution of 1125x2436 pixels at a pixel density of 458 pixels per inch (ppi). iPhone 11 Pro is powered by a hexa-core Apple A13 Bionic processor. It comes with 4GB of RAM. The iPhone 11 Pro runs iOS 13 and is powered by a 3046mAh non-removable battery.</p>
+                
+              </div>
+              <h3>$1500</h3>
+              <div class="card-footer">
+                <button>Buy Now<span>&#8594;</span></button>
+              </div>
+            </div>
+            <div class="card">
+              <img src="phone/phone-3.png" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h5 class="card-title">Samsung Galaxy Note10+</h5>
+                <p class="card-text">That is the only real reason to purchase the Note 10. Sure, it's an excellent phone with great performance, a beautiful screen, and a premium design. But the Galaxy S10 is also an excellent phone with great performance, a beautiful screen, and a premium design</p>
+                
+              </div>
+              <h3>$1000</h3>
+              <div class="card-footer">
+                <button>Buy Now<span>&#8594;</span></button>
+              </div>
+            </div>
+            <div class="card">
+              <img src="phone/phone-1.png" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h5 class="card-title">Redmi Note 8</h5>
+                <p class="card-text">Redmi Note 8 features a 6.39-inch FHD+ AMOLED display with a resolution of 2340 x 1080 pixels, 90 per cent screen-to-body ratio, TUV Rheinland eye protection certification and aspect ratio of 19:5:5.</p>
+                
+              </div>
+              <h3>$560</h3>
+              <div class="card-footer">
+                <button>Buy Now<span>&#8594;</span></button>
+              </div>
+            </div>
+          </div>
+      </div>
+
+      <!-----------------------Smart Phone------------------------>
+
+      <!-----------------------Laptop S---------------------------->
+
+      <div class="container" id="leptop">
+        <div class="row">
+            <div class="col-md-6 d-flex flex-row bd-highlight mb-3"><h2>lEPTOP</h2></div>
+            <div class="col-md-6 d-flex flex-row-reverse bd-highlight"><h5>See All</h5></div>
+        </div>
+      <div class="card-deck">
+          <div class="card">
+            <img src="laptop/product-1.png" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">Asus VivoBook</h5>
+              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+              
+            </div>
+            <h3>$1500</h3>
+            <div class="card-footer">
+              <button>Buy Now<span>&#8594;</span></button>
+            </div>
+          </div>
+          <div class="card">
+            <img src="laptop/product-2.png" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">Razer Blade 15</h5>
+              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+              
+            </div>
+            <h3>$1000</h3>
+            <div class="card-footer">
+              <button>Buy Now<span>&#8594;</span></button>
+            </div>
+          </div>
+          <div class="card">
+            <img src="laptop/product-3.png" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">Xaiomi Mi Note Book pro</h5>
+              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+              
+            </div>
+            <h3>$560</h3>
+            <div class="card-footer">
+              <button>Buy Now<span>&#8594;</span></button>
+            </div>
+          </div>
+        </div>
+    </div>
+
+      <!-----------------------Laptop E---------------------------->
+
+      <div class="container">
+          <h1 class="c">Categories</h1>
+          <hr>
+          <div class="row text-center">
+            <div class="col-md-3 mt-5 mb-5">
+              <div class="categories-card">
+                <img src="Categories/bag.png" alt="" class="img-fluid">
+                <h4>Bag</h4>
+              </div>
+            </div>
+            <div class="col-md-3">
+              <div class="categories-card mb-5">
+                <img src="Categories/perfume.png" alt="" class="img-fluid"> 
+                <h4>Beauty</h4>
+              </div>
+              <div class="categories-card mb-5">
+                <img src="Categories/shoe.png" alt="" class="img-fluid">
+                <h4>Shoes</h4>
+              </div>
+            </div>
+            <br>  
+            <div class="col-md-6">
+              <img src="Categories/pale-order.png" alt="" class="img-fluid">
+            </div>
+      </div>
+      </div>
+    
+
+      <!--footer S-->
+     
+      <footer >
+        <p>Hot Gadgets 2020 © all Rights Reserved</p>
+    </footer>
+  
+  <!--footer E-->
+
+
+    <!--------------Javaskript-------------->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
+</body>
+</html>

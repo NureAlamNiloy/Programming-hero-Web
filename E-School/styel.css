@@ -1,0 +1,237 @@
+html {
+    scroll-behavior: smooth;
+}
+
+
+body{
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+}
+
+a:hover{
+    text-decoration: none;
+    color: white;
+}
+header{
+    background-color: #F0FFF0;
+    padding: 5px;  
+}
+
+.container{
+    margin-bottom: 80px;
+    padding-top: 20px;
+}
+
+/*----navbar start----*/
+.navber{
+    margin-top: 20px;
+}
+.nav-item{
+    margin-left: 15px;
+}
+
+.navbar-brand img{
+   
+   width: 198.07px;
+height: 59px;
+
+}
+
+.sing-in{
+    border-radius: 30px;
+    color: white;
+    border: none;
+    width: 100px;
+    height: 40px;
+    position: relative;
+    background-color: #21B573;
+}
+.sing-in:hover{
+    background-image: linear-gradient(180deg , #badc57 , #2ecc72);
+    color: white;
+}
+/*----------------navbar end-----------------*/
+
+/*------------------Slied S------------------*/
+
+.row-p{
+    color: red;
+}
+.row h1{
+    font-weight: bold;
+}
+
+
+.row .btn{
+    background-color: #21B573;
+    border-radius: 30px;
+    color: white;
+}
+
+.row .btn:hover{
+    background-image: linear-gradient(45deg , #4289FF , #3F07F8);
+    color: white;
+}
+
+.span{
+    color: #2ecc72;
+}
+
+/*------------------Slied E----------------*/
+
+/*----------------------card S--------------*/
+.icon{
+    width: 50%;
+    height: 50%;
+    display: block;
+    margin: auto;
+    padding: 20px;
+    
+}
+#icon:hover{
+    box-shadow: 10px 10px 40px grey;
+    background-color: whitesmoke;
+    
+}
+
+#icon{
+    background-color: #F0FFF0;
+    border: none;
+    box-shadow: 3px 3px 10px grey;
+    border-radius: 20px;
+}
+.card-deck{
+    padding-top: 10%;
+    text-align: center;
+}
+
+/*---------------------Card E---------------*/
+
+/*---------------------Course S---------------*/
+.book-section .card-img-top {
+    padding: 20px;
+}
+.book-section .card-body {
+    padding-top: 0px;
+}
+.book-section h2{
+    padding-bottom: 50px;
+}
+.book-section{
+    padding-bottom: 50px;
+}
+.card-title {
+    margin-bottom: 0;
+    color: #413960;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 36px;
+}
+.book-section .card {
+    border: none;
+    background: #FFFFFF;
+    box-shadow: 0px 10px 40px rgba(0, 0, 0, 0.1);
+    border-radius: 18px;
+}
+.img-fluidd {
+    width: 20px;
+    height: 20px;
+}
+.icon-left .icon p {
+    margin: 0;
+}
+.icon-left p {
+    margin-bottom: 0;
+    padding-left: 10px;
+}
+.icon-left {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.card-icon {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 20px;
+}
+
+
+
+
+/*---------------------Course E---------------*/
+
+/*----------------testmonial s---------------*/
+
+#testmonial p{
+    width: 50%;
+    margin-left: 5%;
+    padding-left: 2%;  
+}
+#testmonial img{
+    display: inline-block;
+    height: 20%;
+    width: 20%;
+}
+
+#testmonial h1{
+    text-align: center;
+    padding-bottom: 80px;
+}
+#testmonial{
+    padding-bottom: 100px;
+}
+
+
+
+/*------------------testmonial E-------------*/
+
+/*--contact S--*/
+#contact{
+    background-color:#fceae8;
+    height:300px ;
+    border-radius: 30px;
+}
+
+#contact button{
+    background-color: #FF589B;
+    border: none;
+    
+ 
+}
+
+.form-control{
+    border:0;
+}
+
+
+
+
+/*--contact E--*/
+
+/*---------------footer-----------------*/
+
+footer{
+    background-color: #282531;
+    color: white;
+    padding-top: 50px;
+}
+footer .justify-content-center{
+    padding-top: 50px;
+    
+}
+footer a{
+
+    color: white;
+}
+footer a:hover{
+    color: wheat;
+}
+footer .container{
+    margin: auto;
+}
+
+
+/*----------------footer-------------------*/

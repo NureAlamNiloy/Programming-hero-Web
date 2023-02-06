@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Temperature Hot</title>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+    <style>
+        body {
+            background: url(images/bg-image.jpg) no-repeat;
+            background-size: cover;
+            height: 100vh;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <form class="col-md-6 m-auto py-5">
+            <div class="input-group mb-3">
+                <input id="searchData" type="text" class="form-control" placeholder="Enter a location for Weather ...">
+                <div class="input-group-append">
+                    <button id="searchBtn" type="button" class="btn btn-danger">Search</button>
+                </div>
+            </div>
+        </form>
+        <div class="weather-status text-white text-center">
+            <img src="https://openweathermap.org/img/wn/02d@2x.png" alt="">
+            <h1 id="city">Dhaka</h1>
+            <h3><span id="temp">38.06</span>&deg;C</h3>
+            <h1 class="lead">Clouds</h1>
+        </div>
+    </div>
+
+
+
+
+    <script>
+        const button =document.getElementById("searchBtn");
+        const input = document.getElementById("searchData");
+        const city = document.getElementById("city");
+        const temp = document.getElementById("temp");
+        const desc = document.querySelector(".lead");
+        button.addEventListener('click', function(){
+            fetch('https://samples.openweathermap.org/data/2.5/weather?q=London,uk&appid=889e01c8a8d02fd5f1d933cc4ae15238')
+        .then(res => res.json())
+        .then(data => console.log(data))
+        })
+
+     </script>
+</body>
+
+</html>

@@ -1,0 +1,223 @@
+
+.container{
+    
+    margin-top: 100px;
+}
+h2{
+        margin-bottom: 30px;
+}
+.text-orange{
+    color: orangered;
+    width: auto;
+}
+body{
+    font-family: 'Poppins', sans-serif;
+}
+a:hover{
+    text-decoration: none;
+    color: white;
+}
+
+
+/*----navbar start----*/
+.navber{
+    margin-top: 20px;
+}
+
+.search-bar{
+    position: relative;
+    width: 65%;
+}
+.search-bar .form-control{
+    background-color: rgb(235, 224, 224) ;
+    
+    border-radius: 25px;
+    border-color: transparent;
+    padding-left: 25px;
+}
+.search-bar button{
+    position: absolute;
+    top: 0;
+    right: 20px;
+}
+.search-bar .btn:focus{
+    outline: none;
+    box-shadow: none;
+    color: #ff2a7e ;
+}
+
+/*--navbar end--*/
+
+/*--slide start*/
+
+
+.background{
+    background-color: #fceae8;
+}
+
+.carousel{
+    padding: 40px 60px;
+    border-radius: 20px;
+}
+.carousel-indicators .active{
+    background-color: #ff267b;
+    width: 35px;
+}
+.carousel-indicators li{
+    height: 8px;
+    width: 16px;
+    border-radius: 5px;
+    border: 0;
+    opacity: 1;
+}
+
+.prise{
+    color: #FF136E;
+}
+.carousel .btn{
+    background-color: #FF136E;
+}
+
+span {
+    content: "\2192";
+  }
+
+/*--slide end--*/
+
+/*--categories start*/
+
+.categories{
+    text-decoration: none;
+  
+}
+.categories img{
+    width: 90px;
+}
+.cat1{
+    background-image: linear-gradient(45deg , #FF9C35 , #FFD019);
+}
+.cat1:hover{
+    background-image: linear-gradient(180deg ,#3C40C6 , #4BCFFA );
+    
+}
+
+.cat1:hover h1{
+    transform: translateX(20px);
+    transition: .3s ease-in-out;
+}
+.cat2{
+    background-image: linear-gradient(to bottom , #FF589B , #FF136F);
+   
+}
+.cat2:hover{
+    background-image: linear-gradient(180deg , #badc57 , #2ecc72);
+}
+.cat2:hover h1{
+    transform: translateX(20px);
+    transition: .3s ease-in-out;
+}
+.cat3{
+    background-image: linear-gradient(45deg , #4289FF , #3F07F8);
+ }
+ .cat3:hover{
+    background-image: linear-gradient(180deg , orange, orangered);
+ }
+ .cat3:hover h1{
+    transform: translateX(20px);
+    transition: .3s ease-in-out;
+}
+
+.cat{
+    color: o;
+    border-radius: 20px;
+}
+
+.cat1, .cat2, .cat3{
+    padding: 10px 30px;
+    padding-bottom: 10px;
+    border-radius: 20px;
+    color: white;
+}
+
+/*--categaries end--*/
+
+/*--Shoes S--*/
+.shoes{
+    text-align: center;
+}
+.shoes  .btn{
+    background-color: #3498DB;
+    border: none;
+}
+#shoes .card{
+    border: none;
+    box-shadow: 5px 5px 40px gray;
+}
+#shoes .card:hover{
+    background-color: wheat;
+    
+}
+
+#shoes .btn-danger:hover{
+    background-image: linear-gradient(180deg , orange, orangered);
+}
+
+/*--shoes e--*/
+
+/*--bags S--*/
+#bags .card{
+    text-align: center;
+    border: none;
+    box-shadow: 5px 5px 30px grey;
+    
+}
+
+#bags .card:hover{
+    background-color: whitesmoke;
+    
+}
+
+#bags .btn{
+    background-color: #2C3335;
+    border: none;
+    text-decoration: none;
+}
+#bags h2{
+    padding-bottom: 10px;
+}
+
+#bags .btn-danger:hover{
+    background-image: linear-gradient(180deg , #badc57 , #2ecc72);
+}
+
+
+/*--bags E--*/
+
+/*--contact S--*/
+#contact{
+    background-color:#fceae8;
+    height:300px ;
+    border-radius: 30px;
+}
+
+#contact button{
+    background-color: #FF589B;
+    border: none;
+    
+ 
+}
+
+.form-control{
+    border:0;
+}
+
+
+
+
+/*--contact E--*/
+
+/*--footer--*/
+footer{
+    text-align: center;
+    margin-top: 100px;
+}

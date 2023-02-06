@@ -1,0 +1,66 @@
+body{
+    padding: 100px;
+}
+
+/* Login pannel S */
+
+.submit-area{
+    margin: 60px;
+    padding: 50px;
+    border-radius: 20px;
+    box-shadow: 5px 5px 20px gray;
+}
+
+.submit-area:hover{
+    box-shadow: 10px 10px 40px grey;
+
+}
+
+#transaction-area{
+    display: none;
+}
+
+
+.cat1{
+    background-image: linear-gradient(180deg , #FF9C35 , #FFD019);
+}
+.cat1:hover{
+    background-image: linear-gradient(180deg ,#3C40C6 , #4BCFFA );
+    
+} 
+
+ .cat1:hover h2{
+    transform: translateX(20px);
+    transition: .3s ease-in-out;
+}  
+.cat2{
+    background-image: linear-gradient(to bottom , #FF589B , #FF136F);
+   
+}
+.cat2:hover{
+    background-image: linear-gradient(180deg , #badc57 , #2ecc72);
+}
+.cat2:hover h2{
+    transform: translateX(20px);
+    transition: .3s ease-in-out;
+}
+.cat3{
+    background-image: linear-gradient(45deg , #4289FF , #3F07F8);
+ }
+ .cat3:hover{
+    background-image: linear-gradient(180deg , orange, orangered);
+ }
+ .cat3:hover h2{
+    transform: translateX(20px);
+    transition: .3s ease-in-out;
+}
+
+.cat1, .cat2, .cat3{
+    padding: 10px 30px;
+    margin: 0px 30px;
+    padding-bottom: 10px;
+    border-radius: 20px;
+    color: white;
+}
+
+/* Login pannel E */

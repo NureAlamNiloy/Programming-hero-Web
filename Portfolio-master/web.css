@@ -1,0 +1,161 @@
+body{
+    margin: 0px;
+    padding: 0px;
+    font-family: 'PT Serif', serif;
+}
+
+.highlite{
+    color: orange;
+}
+
+p{
+    color: dimgrey;
+}
+
+.text{
+    width: 40%;
+    float: left;
+    margin-left: 5%;
+    padding-left: 2%;
+    text-shadow: 3px;
+    margin-bottom: 10px ;
+    scroll-padding-bottom: 10px;
+    
+}
+
+ img {
+    width: 100%;
+  
+}
+
+.top{
+    background-image: url("image/top-banner.png");
+    background-repeat: no-repeat;
+    
+}
+section{
+    height: 500px;
+    padding-bottom: 150px;
+}
+
+.button{
+    text-decoration: none;
+    background-image: linear-gradient(45deg, orangered, orange);
+    background-color: orangered;
+    padding: 10px 25px;
+    color: white;
+    font-weight: bold;
+    border-radius: 10px;
+    background-image: linear-gradient( 180deg, blue, cyan);
+}
+
+.next-text{
+    width: 40%;
+    float: left;
+    margin-left: 5%;
+    text-shadow: 3px;
+    padding-left: 2%;
+  
+}
+
+.next{
+    background-image: url("image/dream-bg.png");
+    background-repeat: no-repeat;
+background-position: right;
+}
+ 
+.resume{
+    text-decoration: none;
+    background-image: linear-gradient(180deg, orangered, orange);
+    background-color: orangered;
+    padding: 10px 25px;
+    color: white;
+    font-weight: bold;
+    border-radius: 10px;
+}
+.text h1   {
+    font-size: 50px;
+}
+
+.next-text h1 {
+    font-size: 40px;
+}
+
+.me{
+    font-size: 40px;
+    text-align: center;
+}
+
+.color{
+    color: orange;
+}
+
+.next-div{
+    width: 40%;
+    float: left;
+    margin-left: 5%;
+    padding-left: 2%;
+    text-shadow: 3px;
+    box-shadow: 10px 10px 40px gray;
+    height: 65%;
+    background-color: white;
+}
+
+.experiencr{
+    background-image: url("image/exp-bg.png");
+    background-repeat: no-repeat;
+    background-position: left;
+    
+}
+
+#full{
+    border-left: 8px solid;
+    border-image: linear-gradient( 180deg, rgba(187, 255, 0, 0.582), rgb(0, 255, 221));
+    border-image-slice: 1;
+}
+
+#web{
+    border-left: 8px solid;
+    border-image: linear-gradient( 180deg, blue, cyan);
+    border-image-slice: 1;
+}
+
+footer p{
+    text-align: center;
+}
+
+.next-div:hover{
+    font-size: 20px;
+    font-style: initial;
+    background-color:whitesmoke;
+}
+
+.mahi{
+    display: inline-block;
+    width: 30%;
+    float: left;
+    margin: 15px;
+    text-align: center;
+    text-shadow: 3px;
+    box-shadow: 10px 10px 40px gray;
+    height: 30%;
+    background-color: white;
+    border: 2px solid orangered;
+    border-radius: 10px ;
+    
+}
+
+.mahi h2{
+    color: orange;
+}
+
+.niloy{
+    text-align: center;
+    font-weight: bold;
+}
+
+.mahi:hover{
+    font-size: 17px;
+    font-style: initial;
+    background-color: wheat;
+}

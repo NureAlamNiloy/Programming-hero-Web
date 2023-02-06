@@ -1,0 +1,178 @@
+body{
+    font-family: 'Cabin', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+.container{
+    padding-bottom: 100px;
+    margin-top: 100px;
+}
+/*-------------------------------------Navber S----------------------------*/
+.search-bar{
+    width: 60%;
+   
+}
+.search-bar input{
+    border: none;
+    border-radius: 20px;
+    background-color: whitesmoke;
+}
+.search-bar button{
+    position: absolute;
+    top: 0;
+    right: 20px;
+}
+.search-bar .btn:focus{
+    outline: none;
+    box-shadow: none;
+    color: #ff2a7e !important;
+    background-color: orange;
+}
+
+.nav-item{
+    padding-right: 20px;
+}
+/*---------------------------------Navber E----------------------------------*/
+
+/*------------------------carousel S-------------------------------------------*/
+.carousel{
+    padding: 50px;
+}
+.row .btn{
+    border-radius: 10px;
+    border: none;
+    padding: 10px;
+    color: white;
+    font-weight: bold;
+    background-image: linear-gradient(180deg , black , grey );
+   
+}
+.carousel-indicators .active{
+    background-color: orange;
+    width: 35px;
+    border-radius: 10px;
+}
+.carousel-indicators li{
+    width: 17px;
+    border: none;
+    background-color: wheat;
+    border-radius: 10px;
+    height: 10px;
+}
+
+
+/*----------------------------------------carousel E-----------------------------*/
+
+/*------------------------mobile S----------------------------------------*/
+
+#mobile{
+    text-align: center;
+    border: none; 
+}
+
+#mobile .card{
+    box-shadow: 10px 10px 40px gray;
+    border-radius: 20px;
+}
+#mobile button{
+    text-align: center;
+    border: none;
+    background-image: linear-gradient(180deg , #FF9C35 , #FFD019);
+    height: 40px;
+    padding: 10px;
+    border-radius: 10px;
+    font-weight: bold;
+}
+#mobile button:hover{
+    background-image: linear-gradient(180deg ,#3C40C6 , #4BCFFA );
+}
+#mobile .row{
+    margin-bottom: 50px;
+}
+#mobile .row h5{
+    font-weight: bold;
+    cursor: pointer;
+    background: -webkit-linear-gradient(145deg,#f1c40f,#e67e22);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+#mobile .card-footer{
+    background-color: white;
+    border: none;
+}
+
+/*---------------------------mobile E-----------------------------------*/
+
+/*-------------------------leptop S-------------------------------*/
+
+#leptop{
+    text-align: center;
+    border: none; 
+}
+
+#leptop .card{
+    box-shadow: 10px 10px 40px gray;
+    border-radius: 20px;
+}
+#leptop button{
+    text-align: center;
+    border: none;
+    background-image: linear-gradient(to bottom , #FF589B , #FF136F);
+    height: 40px;
+    padding: 10px;
+    border-radius: 10px;
+    font-weight: bold;
+}
+#leptop button:hover{
+    background-image: linear-gradient(180deg , #badc57 , #2ecc72);
+}
+#leptop .row{
+    margin-bottom: 50px;
+}
+#leptop .row h5{
+    font-weight: bold;
+    cursor: pointer;
+    background: -webkit-linear-gradient(145deg,#f1c40f,#e67e22);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+#leptop .card-footer{
+    background-color: white;
+    border: none;
+}
+
+
+/*--------------------------leptop E-----------------------------*/
+
+/*--------------------------Categories S-----------------------------*/
+.c{
+    text-align: center;
+}
+ hr{
+    background-image: linear-gradient(180deg , #FF9C35 , #FFD019);
+    width: 150px;
+    height: 5px;
+    border-radius: 10px;
+    margin-bottom: 100px;
+}
+
+.categories-card {
+    box-shadow: 0px 5px 15px gray;
+    padding: 5%;
+}
+.mt-5{
+    margin-top: 6rem!important;
+}
+
+
+
+
+/*--------------------------Categories E-----------------------------*/
+
+/*--footer--*/
+footer{
+    text-align: center;
+    position: relative;
+}

@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pin Generator</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <div class="row">
+            <div class="col-md-6">
+                <div class="pin-generator half-width">
+                    <input id="generatedPinShow" class="form-control" type="text">
+                    <button id="pinGeneratorBtn" class="generate-btn">Generate Pin</button>
+                </div>
+            </div>
+            <div class="col-md-6">
+                <div class="input-section half-width">
+                    <input id="confirmationPinShow" class="form-control" type="text">
+                    <div id="numbers" class="numbers">
+                        <div class="calc-body">
+                            <div class="calc-button-row">
+                              <div onclick="confirmationPinShow.value += 7" class="button">7</div>
+                              <div onclick="confirmationPinShow.value += 8" class="button">8</div>
+                              <div onclick="confirmationPinShow.value += 9" class="button">9</div>
+                            </div>
+                            <div class="calc-button-row">
+                              <div onclick="confirmationPinShow.value += 4" class="button">4</div>
+                              <div onclick="confirmationPinShow.value += 5" class="button">5</div>
+                              <div onclick="confirmationPinShow.value += 6" class="button">6</div>
+                            </div>
+                            <div class="calc-button-row">
+                              <div onclick="confirmationPinShow.value += 1" class="button">1</div>
+                              <div onclick="confirmationPinShow.value += 2" class="button">2</div>
+                              <div onclick="confirmationPinShow.value += 3" class="button">3</div>
+                            </div>
+                            <div class="calc-button-row">
+                                <div id="slicer" class="button"><</div>
+                                <div onclick="confirmationPinShow.value += 0" class="button">0</div>
+                                <div id="clear" class="button">C</div>
+                            </div>
+                            <div>
+                                <button id="confirmationPinSubmit" type="submit" class="submit-btn">Submit</button>
+                                <p class="action-left"><span id="tryCount">3</span> try left</p>
+                            </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div id="notify" class="notify-section">
+            <p id="mismatchAlert" class="notify">❌ Pin Didn't Match, Please try again</p>
+            <p id="matchAlert" class="notify">✅ Pin Matched... Secret door is opening for you</p>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
